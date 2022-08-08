@@ -1,0 +1,86 @@
+{
+	"id": "64E2691F-F916-ED11-BD6E-A085FCBC6CDC",
+	"createdAt": "2022-08-08T09:04:35.800Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-weatherstation",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"neptunesoftware-dxp-abb-weatherstation\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"neptunesoftware-dxp-abb-weatherstation\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "neptunesoftware-dxp-abb-weatherstation",
+	"description": null,
+	"ver": "22.8.8.96",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "B74BFCA6-84DA-EC11-B656-A085FCBCB3C7",
+			"application": "hackathonweatherstation",
+			"title": "Weather Station",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "EDB931F6-7FDA-EC11-B656-A085FCBCB3C7",
+			"name": "hackathonWeatherStation-Amsterdam",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "DE8CEBCD-0EDC-EC11-B656-A085FCBCB3C7",
+			"name": "hackathonWeatherStation-Dusseldorf",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}

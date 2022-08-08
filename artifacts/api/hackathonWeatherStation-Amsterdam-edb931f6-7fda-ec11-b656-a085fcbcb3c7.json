@@ -1,0 +1,97 @@
+{
+	"id": "edb931f6-7fda-ec11-b656-a085fcbcb3c7",
+	"createdAt": "2022-05-23T10:06:09.066Z",
+	"createdBy": "luuk",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "587E7835-AFBD-42DD-FFC7-3C9B02D6CAF4",
+			"method": "GET",
+			"path": "/?lat=52.3676&lon=4.9041&appid=358cf6d7c0e492f2010b9a3ed00885dd&units=metric ",
+			"description": "",
+			"parameters": [
+				{
+					"name": "lat",
+					"description": "",
+					"required": true,
+					"inPath": true,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "lon",
+					"description": "",
+					"required": true,
+					"inPath": true,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "mode",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "units",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "lang",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			]
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "hackathonWeatherStation-Amsterdam",
+	"endpoint": "https://api.openweathermap.org/data/2.5/weather",
+	"ver": "22.8.8.95",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": null,
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "64e2691f-f916-ed11-bd6e-a085fcbc6cdc",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}
