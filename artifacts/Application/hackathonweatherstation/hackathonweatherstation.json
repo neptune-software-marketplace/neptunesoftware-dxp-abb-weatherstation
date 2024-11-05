@@ -163,7 +163,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.05.1342",
+	"ver": "24.11.05.1354",
 	"application": "hackathonweatherstation",
 	"title": "Weather Station",
 	"description": "",
@@ -208,12 +208,12 @@
 		{
 			"id": "edb931f6-7fda-ec11-b656-a085fcbcb3c7",
 			"name": "hackathonWeatherStation-Amsterdam",
-			"ver": "22.8.8.95"
+			"ver": "24.11.05.1354"
 		},
 		{
 			"id": "de8cebcd-0edc-ec11-b656-a085fcbcb3c7",
 			"name": "hackathonWeatherStation-Dusseldorf",
-			"ver": "22.8.8.95"
+			"ver": "24.11.05.1354"
 		}
 	],
 	"package": "64e2691f-f916-ed11-bd6e-a085fcbc6cdc"
