@@ -1,0 +1,220 @@
+{
+	"id": "b74bfca6-84da-ec11-b656-a085fcbcb3c7",
+	"createdAt": "2022-05-23T10:42:27.443Z",
+	"createdBy": "luuk",
+	"objects": [
+		{
+			"fieldNo": "8e4834c1-abaf-451c-859f-7069ee00b563",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "80e08d9b-96ab-4083-9f20-ac1ff96c2951",
+					"fieldName": "oApp",
+					"fieldParent": "8e4834c1-abaf-451c-859f-7069ee00b563",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "88c2b32d-8079-4244-b4f2-1522b0a71bf9",
+							"fieldName": "oPage",
+							"fieldParent": "80e08d9b-96ab-4083-9f20-ac1ff96c2951",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "7b988592-c03a-4317-a113-19ed46b11c37",
+									"fieldName": "hbxMap",
+									"fieldParent": "88c2b32d-8079-4244-b4f2-1522b0a71bf9",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "225cccfa-c04e-495e-ac4f-78bbc422ef09",
+					"fieldName": "README",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Text",
+					"script": "file://script/neptune.Text/README.txt",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "d5dfabdc-01a2-4bd4-c7fe-d819432be4da",
+					"fieldName": "oRestAPIAmsterdamWeather",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "edb931f6-7fda-ec11-b656-a085fcbcb3c7",
+					"restOperation": "587e7835-afbd-42dd-ffc7-3c9b02d6caf4",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIAmsterdamWeather/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "3544135e-ae33-4085-8e9b-48c0350e1e43",
+					"fieldName": "oRestAPIDusseldorfWeather",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "de8cebcd-0edc-ec11-b656-a085fcbcb3c7",
+					"restOperation": "5b7df884-4946-4c51-cc8c-ef3637ef0423",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIDusseldorfWeather/ajaxSuccess.script",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "1c669bd1-cf50-41c5-dfae-cd814ce52833",
+					"fieldName": "Map",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Map.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.05.1342",
+	"application": "hackathonweatherstation",
+	"title": "Weather Station",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": true,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "edb931f6-7fda-ec11-b656-a085fcbcb3c7",
+			"name": "hackathonWeatherStation-Amsterdam",
+			"ver": "22.8.8.95"
+		},
+		{
+			"id": "de8cebcd-0edc-ec11-b656-a085fcbcb3c7",
+			"name": "hackathonWeatherStation-Dusseldorf",
+			"ver": "22.8.8.95"
+		}
+	],
+	"package": "64e2691f-f916-ed11-bd6e-a085fcbc6cdc"
+}

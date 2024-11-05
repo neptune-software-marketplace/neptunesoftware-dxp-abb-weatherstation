@@ -6,7 +6,7 @@
 	"endpoints": [],
 	"paths": [
 		{
-			"id": "587E7835-AFBD-42DD-FFC7-3C9B02D6CAF4",
+			"id": "587e7835-afbd-42dd-ffc7-3c9b02d6caf4",
 			"method": "GET",
 			"path": "/?lat=52.3676&lon=4.9041&appid=358cf6d7c0e492f2010b9a3ed00885dd&units=metric ",
 			"description": "",
@@ -83,6 +83,7 @@
 	"apiType": "",
 	"about": null,
 	"enableProxy": true,
+	"forwardProxy": null,
 	"restrictAccess": false,
 	"enableTrace": false,
 	"enableIDE": true,

@@ -1,0 +1,6 @@
+var responseData = JSON.parse(xhr.responseText);
+
+DusseldorfWeather = responseData;
+
+console.log("Dusseldorf Weather");
+console.log(DusseldorfWeather);
